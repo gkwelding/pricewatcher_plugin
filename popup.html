@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Price Watcher</title>
+		<script src="assets/js/jquery-3.2.1.min.js"></script>
+		<script src="assets/js/popup.js"></script>
+		<link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div id="main-container">
+			<div id="main-form">
+				<h1>Price Watcher</h1>
+				<div class="form-style-5">
+					<form action="https://pricewatch.in-the-attic.com/api.php" method="POST" id="watchProductForm">
+						<fieldset>
+							<legend><span class="number">1</span> Your Email Address</legend>
+							<input type="text" name="email" placeholder="email address" />
+						</fieldset>
+						<fieldset>
+							<legend><span class="number">2</span> The Price You'd Buy At</legend>
+							<input type="text" name="alertvalue" placeholder="alert when product drops below" />
+						</fieldset>
+						<fieldset>
+							<legend><span class="number">3</span> Let Us Do The Hard Work</legend>
+							<button id="watchProduct">Watch this product!</button>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+			<div id="loader">
+				<img src="assets/img/spin.gif">
+			</div>
+			<div id="thanks">
+				<p>Thanks for using our service. We promise your data is in good hands.</p>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,13 @@
+{
+	"manifest_version": 2,
+	"name": "Price Watcher Plugin",
+	"description": "This extension allows you to select products to watch",
+	"version": "0.1",
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+		"activeTab"
+	]
+}
