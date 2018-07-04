@@ -1,2 +1,2 @@
 # pricewatcher_plugin
-price watcher plugin
+price watcher plugin.
